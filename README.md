@@ -20,5 +20,5 @@ pstr: Prints the string starting at the top of the stack.
 rotl: Rotates the stack to the top.
 rotr: Rotates the stack to the bottom.
 swap: Swaps the top two elements of the stack.
-For a complete list of Monty operations, please refer to the Monty language documentation.
+For a complete list of Monty operations, please refer to the Monty language documentation..
 

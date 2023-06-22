@@ -16,7 +16,7 @@ void m_queue(stack_t **head, unsigned int counter)
  * newqueue - add node to the tail stack
  *
  * @n: new value
- * 
+ *
  * @head: head of the stack
  * Return: no return
 */

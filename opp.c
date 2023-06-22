@@ -1,6 +1,5 @@
 #include "monty.h"
 /**
- *
  * m_pp - prints the top
  * @head: stack head
  * @counter: linenumber

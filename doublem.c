@@ -4,7 +4,7 @@
  * @head: stack head
  * @counter: linenumber
  * Return: no return
- * description: multiplies 
+ * description: multiplies
  */
 void m_mul(stack_t **head, unsigned int counter)
 {
