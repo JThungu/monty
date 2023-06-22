@@ -66,8 +66,9 @@ void m_push(stack_t **head, unsigned int number);
 void m_pll(stack_t **head, unsigned int number);
 void m_pint(stack_t **head, unsigned int number);
 int m_exe(char *content, stack_t **head, unsigned int counter, FILE *file);
-void m_stack(stack_t *head);
+void mm_stack(stack_t *head);
 void m_pp(stack_t **head, unsigned int counter);
 void m_mod(stack_t **head, unsigned int counter);
 void m_swap(stack_t **head, unsigned int counter);
+void m_mul(stack_t **head, unsigned int counter);
 #endif

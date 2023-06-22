@@ -21,7 +21,7 @@ void m_mod(stack_t **head, unsigned int counter)
 		fprintf(stderr, "L%d: can't mod, stack too short\n", counter);
 		fclose(bus.file);
 		free(bus.content);
-		m_stack(*head);
+		mm_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 	h = *head;
@@ -30,7 +30,7 @@ void m_mod(stack_t **head, unsigned int counter)
 		fprintf(stderr, "L%d: division by zero\n", counter);
 		fclose(bus.file);
 		free(bus.content);
-		_stack(*head);
+		mm_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 	aux = h->next->n % h->n;

@@ -15,7 +15,7 @@ void m_pp(stack_t **head, unsigned int counter)
 		fprintf(stderr, "L%d: can't pop an empty stack\n", counter);
 		fclose(bus.file);
 		free(bus.content);
-		m_stack(*head);
+		mm_stack(*head);
 		exit(EXIT_FAILURE);
 	}
 	h = *head;

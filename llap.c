@@ -1,10 +1,12 @@
 #include "monty.h"
 /**
  * m_pll - prints the stack
- * @head: stack head
- * @counter: no used
+ * 
+ * @head: head
+ * @counter: non
+ *
  * Return: no return
-*/
+ */
 void m_pll(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
