@@ -1,7 +1,7 @@
 #include "monty.h"
 /**
  * m_pll - prints the stack
- * 
+ *
  * @head: head
  * @counter: non
  *
